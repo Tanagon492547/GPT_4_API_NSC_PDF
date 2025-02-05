@@ -14,7 +14,7 @@ app.resizable(False, False)
 app.title("OpenSearch for PDF")
 #########################################################################
 
-OPEMAI_API_KEY = 'sk-proj-gsUmei8SR3Y1OZdU9MrJT3BlbkFJxNSfaICqtYwyIwzF3F60'
+OPEMAI_API_KEY = 'YOUR_API_KEY'
 openai.api_key = OPEMAI_API_KEY
 MODEL = 'gpt-4'
 prompt = """You are the person responsible for organizing the documents. 
