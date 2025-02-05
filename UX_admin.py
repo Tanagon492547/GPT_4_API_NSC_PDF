@@ -9,7 +9,7 @@ import json
 host = 'localhost'
 port = 9200
 #Must verify account 
-auth = ('admin','NSCc753159#')
+auth = ('USER_NAME','PASSWORD')
 
 # Create the client with SSL/TLS enabled.
 client = OpenSearch(
